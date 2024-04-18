@@ -7,8 +7,8 @@ on:
   pull_request:
     branches:
       - '*'
-  schedule:
-    - cron: '0,30 * * * *'
+#  schedule:
+#    - cron: '0,30 * * * *'
 
 jobs:
   wa-update:
